@@ -1,8 +1,70 @@
 <!DOCTYPE html>
 <html>
+
     <head>
-        <body>
-            
-        </body>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rachel Creats</title>
+        <link rel="stylesheet"  href="css/style.css">
     </head>
+
+        <body>
+            <header class="navigation-container">
+                <div class="navigation-icon"></div>
+
+                <nav>
+                    <button type="button" id="home-btn">Home</button>
+                    <button type="button" id="design-btn">Designs</button>
+                    <button type="button" id="contact-btn">Contact</button>
+                </nav>
+            </header>
+            <hr />
+
+            <article class="content-container">
+                <header>
+                    <h1 style="color: white;">Hi, I'm Rachel,</h1>
+                    <h3 style="color: white;">Creative Web Developer</h3>
+                </header>
+                
+                <section class="core-content">
+                    <div class="core-item">
+                        <header>
+                            <h2 style="font-size: 50px;">Get In Touch</h2>
+                        </header>
+                        <h3>I am a Web Developer. I specialize in UI/UX Design, Responsive Web Design, and Visual Development.</h3>
+                        <nav>
+                            <button style="color: white;">Download CV</button>
+                        </nav>
+                    </div>
+                    <div class="core-item item-right">
+                    <section class="item-form">
+                        <label>Username:</label><input type="text" id="username" name="username" required><br>
+                        <label>Email:</label><input type="text" id="Email" name="Email" required><br>
+                        <label>Reason:</label><input type="text" id="Reason" name="Reason" rows="5" required><br>
+                        <button type="button" id="send-button" style="color: white;">Send</button>
+                    </div>
+                    </section>
+                </section>
+
+                <section class="my-current-project-content">
+                    <h1 style="color: white;">My Current Project</h1>
+                </section>
+                <section class="gym-design-application-content">
+                    <h1 style="color: white;">Gym Design Application</h1>
+                    <img src="assets/mockup gym.png" alt="Mockup Gym Design With Figma">
+                    <h1 style="color: white;">Movie Ticket Booking Design Application</h1>
+                    <img src="assets/mockup movie.png" alt="Mockup Movie Ticket Booking Design With Figma">
+                    <hr>
+                </section>
+                
+                <section class="interested-content">
+                    <nav>
+                    <h1 style="color: white;">Interested In Working With Me?</h1>
+                        <button style="color: white;">Get In Touch</button>
+                    </nav>
+                </section>
+            </article>
+            <script src="js/script.js"></script>
+        </body>
+
 </html>
